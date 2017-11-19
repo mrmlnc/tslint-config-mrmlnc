@@ -1,0 +1,20 @@
+# Common files
+.editorconfig
+.gitignore
+.travis.yml
+appveyor.yml
+tconfig.json
+
+# Builded files
+out/**/*.js.map
+out/**/*.spec.js
+
+# Editor directories
+.vscode
+
+# Other directories
+.tmp
+benchmark
+src
+typings
+node_modules

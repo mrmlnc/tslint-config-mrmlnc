@@ -1,0 +1,25 @@
+{
+  "name": "tslint-config-mrmlnc",
+  "version": "1.0.0",
+  "description": "Just my personal configuration for easy distribution between my packages",
+  "license": "MIT",
+  "repository": "mrmlnc/tslint-config-mrmlnc",
+  "author": {
+    "name": "Denis Malinochkin",
+    "url": "canonium.com"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "fs",
+    "scandir",
+    "dirent",
+    "performance",
+    "directory"
+  ],
+  "main": "tslint.json",
+  "dependencies": {
+    "tslint-config-xo": "^1.4.0"
+  }
+}
