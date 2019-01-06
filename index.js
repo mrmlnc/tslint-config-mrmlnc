@@ -129,7 +129,8 @@ const TSLINT_RULES = {
 const TSLINT_CONFIG_XO_RULES = {
 	'valid-jsdoc': false,
 	'ter-arrow-parens': true,
-	'object-curly-spacing': false
+	'object-curly-spacing': false,
+	'linebreak-style': 'LF'
 };
 
 const TSLINT_CONSISTENT_CODESTYLE_RULES = {
