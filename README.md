@@ -2,7 +2,11 @@
 
 ## Introduction
 
-This is the TSLint configuration file used in [@mrmlnc](https://github.com/mrmlnc) projects. Based on [tslint-config-xo](https://github.com/mrmlnc/tslint-config-xo).
+This is the TSLint configuration file used in [@mrmlnc](https://github.com/mrmlnc) projects. Based on [tslint-config-xo](https://github.com/mrmlnc/tslint-config-xo). Adds additional rules from:
+
+  * [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
+  * [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
+  * [tslint-sonarts](https://github.com/SonarSource/SonarTS)
 
 ## Installation
 
