@@ -9,17 +9,31 @@
     "url": "canonium.com"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.0.0"
   },
   "keywords": [
-    "fs",
-    "scandir",
-    "dirent",
-    "performance",
-    "directory"
+    "tslint",
+    "config",
+    "mrmlnc"
   ],
-  "main": "tslint.json",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint:js": "xo --cache *.js",
+    "test": "npm run lint:js"
+  },
   "dependencies": {
-    "tslint-config-xo": "^1.4.0"
+    "tslint-config-xo": "^2.0.0",
+    "tslint-consistent-codestyle": "^1.15.0",
+    "tslint-microsoft-contrib": "^6.0.0",
+    "tslint-sonarts": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2",
+    "xo": "^0.23.0"
   }
 }
