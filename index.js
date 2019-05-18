@@ -138,7 +138,17 @@ const TSLINT_CONSISTENT_CODESTYLE_RULES = {
 	'no-collapsible-if': true,
 	'no-static-this': true,
 	'object-shorthand-properties-first': true,
-	'prefer-const-enum': true
+	'prefer-const-enum': true,
+	'naming-convention': [
+		true,
+		{ type: 'variable', modifiers: ['global', 'const'], format: ['camelCase', 'UPPER_CASE'] },
+		{ type: 'functionVariable', format: 'camelCase' },
+		{ type: 'member', modifiers: 'private', leadingUnderscore: 'require' },
+		{ type: 'member', modifiers: 'protected', leadingUnderscore: 'require' },
+		{ type: 'type', format: 'PascalCase' },
+		{ type: 'genericTypeParameter', prefix: 'T' },
+		{ type: 'enumMember', format: 'PascalCase' }
+	]
 };
 
 const TSLINT_MICROSOFT_CONTRIB_RULES = {
